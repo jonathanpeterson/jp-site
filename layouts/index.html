@@ -1,0 +1,55 @@
+{{- define "main" }}
+
+<div class="jp-hero">
+  <h1 class="jp-hero-title">Thirty years building things that matter.</h1>
+  <p class="jp-hero-sub">Still taking requests.</p>
+  <p class="jp-hero-tagline">Product leader. Engineer at heart. Enthusiastic DJ for the afterparty.</p>
+</div>
+
+<div class="jp-paths">
+
+  <div class="jp-path">
+    <h2>Work With Me</h2>
+    <p>Three decades in technology — from software engineer to product executive — leading teams building platforms in AdTech, MarTech, FinTech, and digital media. I've shipped products that moved markets, mentored PMs who went on to lead their own orgs, and I'm not done yet.</p>
+    <p>Available for senior product leadership roles and fractional engagements.</p>
+    <a class="jp-cta" href="/work/">See my work →</a>
+  </div>
+
+  <div class="jp-path">
+    <h2>Let's Build Something</h2>
+    <p>I write about technology, product craft, and the strange history of the internet. I build things on weekends. I have opinions about AI, local news, and why your notification system is probably lying to you.</p>
+    <p>If any of that sounds interesting, you're in the right place.</p>
+    <a class="jp-cta" href="/writing/">Writing &amp; projects →</a>
+  </div>
+
+  <div class="jp-path">
+    <h2>Jonny Spins</h2>
+    <p>Dance music for old people.</p>
+    <p class="jp-genres">Funk · R&amp;B · Disco · 80s · Old School Hip-Hop<br>Classic House · Deep House · Dance Pop<br>from the 70s to today</p>
+    <p>
+      <a href="https://soundcloud.com/jonnyspins" target="_blank" rel="noopener">SoundCloud</a> ·
+      <a href="https://instagram.com/404_loko" target="_blank" rel="noopener">Instagram</a> ·
+      <a href="https://campsite.bio/jonnyspins" target="_blank" rel="noopener">campsite.bio</a>
+    </p>
+  </div>
+
+</div>
+
+{{- $pages := where .Site.RegularPages "Section" "writing" }}
+{{- $pages = first 3 $pages }}
+{{- if $pages }}
+<div class="jp-recent">
+  <h2>Recently written <a class="jp-recent-all" href="/writing/">See all →</a></h2>
+  <div class="jp-recent-posts">
+    {{- range $pages }}
+    <div class="jp-recent-post">
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+      <span class="jp-recent-date">{{ .Date.Format "January 2006" }}</span>
+      {{- if .Description }}<p>{{ .Description }}</p>{{- end }}
+    </div>
+    {{- end }}
+  </div>
+</div>
+{{- end }}
+
+{{- end }}

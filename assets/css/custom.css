@@ -1,0 +1,105 @@
+/* ── Home page ──────────────────────────────────────────────── */
+
+.jp-hero {
+  text-align: center;
+  padding: 3rem 0 2.5rem;
+}
+
+.jp-hero-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0 0 0.25rem;
+  line-height: 1.2;
+}
+
+.jp-hero-sub {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--secondary);
+  margin: 0 0 1rem;
+}
+
+.jp-hero-tagline {
+  font-size: 1rem;
+  color: var(--secondary);
+  margin: 0;
+}
+
+.jp-paths {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin: 2.5rem 0 3rem;
+}
+
+.jp-path {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1.75rem;
+}
+
+.jp-path h2 {
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+.jp-path p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.jp-genres {
+  color: var(--secondary);
+  font-size: 0.875rem !important;
+  line-height: 1.8 !important;
+}
+
+.jp-cta {
+  display: inline-block;
+  margin-top: 0.75rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+/* ── Recent posts strip ─────────────────────────────────────── */
+
+.jp-recent {
+  margin: 0 0 3rem;
+}
+
+.jp-recent h2 {
+  font-size: 1.1rem;
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.jp-recent-all {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.jp-recent-posts {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.jp-recent-post a {
+  font-weight: 600;
+}
+
+.jp-recent-date {
+  font-size: 0.8rem;
+  color: var(--secondary);
+  margin-left: 0.75rem;
+}
+
+.jp-recent-post p {
+  margin: 0.25rem 0 0;
+  font-size: 0.9rem;
+  color: var(--secondary);
+}

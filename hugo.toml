@@ -1,0 +1,63 @@
+baseURL = 'https://jonathan-peterson.com/'
+languageCode = 'en-us'
+title = 'Jonathan Peterson'
+theme = 'PaperMod'
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+
+[params]
+  description = "Product leader. Engineer at heart. Enthusiastic DJ for the afterparty."
+  customCSS = ["css/custom.css"]
+  author = "Jonathan Peterson"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = false
+  ShowCodeCopyButtons = true
+  ShowRssButtonInSectionTermList = false
+
+  [params.homeInfoParams]
+    Title = "Thirty years building things that matter."
+    Content = "Still taking requests."
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/jonathanpeterson/"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/jonathanpeterson"
+
+[taxonomies]
+  tag = "tags"
+
+[permalinks]
+  writing = "/writing/:slug/"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+  [[menu.main]]
+    identifier = "work"
+    name = "Work"
+    url = "/work/"
+    weight = 20
+  [[menu.main]]
+    identifier = "writing"
+    name = "Writing"
+    url = "/writing/"
+    weight = 30
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 40
+  [[menu.main]]
+    identifier = "dj"
+    name = "DJ"
+    url = "/dj/"
+    weight = 50
