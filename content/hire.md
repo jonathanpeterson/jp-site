@@ -28,3 +28,4 @@ I've run a fractional CTO practice before and I know how to come in fast, get or
 
 [jonathan@jonathan-peterson.com](mailto:jonathan@jonathan-peterson.com)
 [LinkedIn →](https://www.linkedin.com/in/jonathanpeterson/)
+[Download Resume](/jonathan-peterson-resume.pdf)
