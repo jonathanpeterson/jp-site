@@ -1,13 +1,14 @@
 baseURL = 'https://jonathan-peterson.com/'
 languageCode = 'en-us'
 title = 'Jonathan Peterson'
-theme = 'PaperMod'
+theme = 'hugo-universal-theme'
 enableRobotsTXT = true
 buildDrafts = false
 buildFuture = false
 
 [params]
   description = "Product leader. Engineer at heart. Enthusiastic DJ for the afterparty."
+  date_format = "January 2, 2006"
   customCSS = ["css/custom.css"]
   author = "Jonathan Peterson"
   defaultTheme = "auto"
