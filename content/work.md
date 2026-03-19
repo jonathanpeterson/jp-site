@@ -6,7 +6,7 @@ url: /work/
 
 I've been building things at the intersection of technology, business, and people since before most of the infrastructure we now take for granted existed.
 
-[Download Resume](Jonathan Peterson - resume.pdf) → &nbsp;·&nbsp; Full expertise & tech stack →
+Download Resume → &nbsp;·&nbsp; [Full AdTech stack →](/expertise/#adtech)
 
 ***
 
