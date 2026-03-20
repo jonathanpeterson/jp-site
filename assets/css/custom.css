@@ -120,8 +120,23 @@
   gap: 1rem;
 }
 
+.jp-recent-post {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
 .jp-recent-post a {
   font-weight: 600;
+}
+
+.jp-content-icon {
+  width: 0.9em;
+  height: 0.9em;
+  flex-shrink: 0;
+  position: relative;
+  top: 0.1em;
+  opacity: 0.5;
 }
 
 .jp-recent-date {
