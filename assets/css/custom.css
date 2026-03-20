@@ -110,6 +110,16 @@
   margin-top: 0.75rem;
   font-weight: 600;
   font-size: 0.95rem;
+  color: rgb(var(--color-primary-500));
+}
+
+/* ── Global link hover underline ────────────────────────────── */
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(var(--color-primary-500));
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 3px;
 }
 
 /* ── Recent posts strip ─────────────────────────────────────── */
