@@ -34,14 +34,18 @@
 
 .jp-home-banner {
   width: 100%;
-  margin-bottom: 2rem;
+  margin-top: -1rem;
+  margin-bottom: 1rem;
   border-radius: 8px;
   overflow: hidden;
+  max-height: 200px;
 }
 
 .jp-home-banner img {
   width: 100%;
-  height: auto;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
   display: block;
 }
 
@@ -151,7 +155,8 @@
   flex-shrink: 0;
   position: relative;
   top: 0.1em;
-  opacity: 0.5;
+  color: rgb(var(--color-primary-500));
+  stroke: rgb(var(--color-primary-500));
 }
 
 .jp-recent-date {
