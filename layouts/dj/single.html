@@ -1,0 +1,22 @@
+{{- define "main" }}
+<div class="jp-dj-page">
+  {{ .Content }}
+</div>
+
+{{- $music := where .Site.RegularPages "Section" "writing" }}
+{{- $music = where $music "Params.tags" "intersect" (slice "music") }}
+{{- if $music }}
+<div class="jp-recent jp-dj-feed">
+  <h2>What I'm Listening To</h2>
+  <div class="jp-recent-posts">
+    {{- range $music }}
+    <div class="jp-recent-post">
+      <span class="jp-recent-date">{{ .Date.Format "Jan 2, 2006" }}</span>
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+      {{- if .Description }}<p>{{ .Description }}</p>{{- end }}
+    </div>
+    {{- end }}
+  </div>
+</div>
+{{- end }}
+{{- end }}

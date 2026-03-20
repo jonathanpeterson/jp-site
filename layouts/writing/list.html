@@ -1,0 +1,17 @@
+{{- define "main" }}
+<div class="jp-section-header">
+  <h1>Writing</h1>
+</div>
+<div class="jp-post-list">
+  {{- $pages := where .Site.RegularPages "Section" "writing" }}
+  {{- range $pages }}
+    {{- if not (in .Params.tags "music") }}
+    <div class="jp-post-item">
+      <span class="jp-recent-date">{{ .Date.Format "Jan 2, 2006" }}</span>
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+      {{- if .Description }}<p class="jp-post-desc">{{ .Description }}</p>{{- end }}
+    </div>
+    {{- end }}
+  {{- end }}
+</div>
+{{- end }}

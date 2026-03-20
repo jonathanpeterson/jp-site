@@ -36,16 +36,15 @@
 </div>
 
 {{- $pages := where .Site.RegularPages "Section" "writing" }}
-{{- $pages = first 3 $pages }}
+{{- $pages = first 5 $pages }}
 {{- if $pages }}
 <div class="jp-recent">
-  <h2>Recently written <a class="jp-recent-all" href="/writing/">See all →</a></h2>
+  <h2>Recently <a class="jp-recent-all" href="/writing/">See all →</a></h2>
   <div class="jp-recent-posts">
     {{- range $pages }}
     <div class="jp-recent-post">
+      <span class="jp-recent-date">{{ .Date.Format "Jan 2, 2006" }}</span>
       <a href="{{ .Permalink }}">{{ .Title }}</a>
-      <span class="jp-recent-date">{{ .Date.Format "January 2006" }}</span>
-      {{- if .Description }}<p>{{ .Description }}</p>{{- end }}
     </div>
     {{- end }}
   </div>

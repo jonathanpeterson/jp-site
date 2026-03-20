@@ -95,11 +95,46 @@
 .jp-recent-date {
   font-size: 0.8rem;
   color: var(--secondary);
-  margin-left: 0.75rem;
+  margin-right: 0.75rem;
 }
 
 .jp-recent-post p {
   margin: 0.25rem 0 0;
   font-size: 0.9rem;
   color: var(--secondary);
+}
+
+/* ── Writing list & DJ feed ─────────────────────────────────── */
+
+.jp-section-header {
+  margin-bottom: 2rem;
+}
+
+.jp-post-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.jp-post-item {
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1.5rem;
+}
+
+.jp-post-item a {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.jp-post-desc {
+  margin: 0.25rem 0 0;
+  font-size: 0.9rem;
+  color: var(--secondary);
+}
+
+.jp-dj-feed {
+  margin-top: 2rem;
+  border-top: 1px solid var(--border);
+  padding-top: 2rem;
 }
