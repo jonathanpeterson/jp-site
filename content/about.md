@@ -3,6 +3,8 @@ title: About
 url: /about/
 ---
 
+![](/images/made_in_atl.jpg)
+
 My boss at CNN Interactive — [Harry Motro](https://www.linkedin.com/in/drharrymotro) — asked me an innocuous question in my interview that I realized much later was quite meaningful.
 
 _In one sentence: what drives you? What gets you out of bed in the morning?_
