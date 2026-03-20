@@ -1,7 +1,6 @@
 ---
 title: "Jonny Spins"
 url: "/dj/"
-layout: "page"
 ---
 
 ## Jonny Spins

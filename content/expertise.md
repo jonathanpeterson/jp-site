@@ -1,7 +1,6 @@
 ---
 title: "Expertise"
 url: "/expertise/"
-layout: "page"
 ---
 
 The tools and platforms I know well enough to have opinions about. Built up over thirty years of shipping product across media, advertising, fintech, and agency work. Linked from relevant chapters on my [work page](/work/).

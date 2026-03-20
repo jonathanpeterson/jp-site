@@ -1,7 +1,6 @@
 ---
 title: "Projects"
 url: "/projects/"
-layout: "page"
 ---
 
 Things I'm building when I'm not doing the other things.

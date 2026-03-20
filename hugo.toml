@@ -1,34 +1,15 @@
+[module]
+  [[module.imports]]
+    path = "github.com/jpanther/congo/v2"
+
+
 baseURL = 'https://jonathan-peterson.com/'
 languageCode = 'en-us'
 title = 'Jonathan Peterson'
-theme = 'hugo-universal-theme'
 enableRobotsTXT = true
 buildDrafts = false
 buildFuture = false
 
-[params]
-  description = "Product leader. Engineer at heart. Enthusiastic DJ for the afterparty."
-  date_format = "January 2, 2006"
-  customCSS = ["css/custom.css"]
-  author = "Jonathan Peterson"
-  defaultTheme = "auto"
-  ShowReadingTime = true
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = false
-  ShowCodeCopyButtons = true
-  ShowRssButtonInSectionTermList = false
-
-  [params.homeInfoParams]
-    Title = "Thirty years building things that matter."
-    Content = "Still taking requests."
-
-  [[params.socialIcons]]
-    name = "linkedin"
-    url = "https://www.linkedin.com/in/jonathanpeterson/"
-
-  [[params.socialIcons]]
-    name = "github"
-    url = "https://github.com/jonathanpeterson"
 
 [taxonomies]
   tag = "tags"

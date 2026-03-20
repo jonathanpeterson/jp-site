@@ -1,6 +1,5 @@
 ---
 title: Work
-layout: page
 url: /work/
 ---
 

@@ -1,0 +1,19 @@
+colorScheme = "ocean"
+defaultAppearance = "auto"
+description = "Product leader. Engineer at heart. Enthusiastic DJ for the afterparty."
+showReadingTime = true
+showBreadcrumbs = false
+showCodeCopyButtons = true
+
+[homepage]
+  layout = "custom"
+  showRecent = false
+
+[author]
+  name = "Jonathan Peterson"
+  image = "images/myhead-charcoal.png"
+  headline = "Product leader. Engineer at heart. Enthusiastic DJ for the afterparty."
+  links = [
+    { linkedin = "https://www.linkedin.com/in/jonathanpeterson/" },
+    { github = "https://github.com/jonathanpeterson" }
+  ]

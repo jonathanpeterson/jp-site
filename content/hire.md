@@ -1,6 +1,5 @@
 ---
 title: Hire Me
-layout: page
 url: /hire/
 ---
 
