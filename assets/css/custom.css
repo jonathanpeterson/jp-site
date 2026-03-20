@@ -30,6 +30,21 @@
   display: block;
 }
 
+/* ── Home page banner ───────────────────────────────────────── */
+
+.jp-home-banner {
+  width: 100%;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.jp-home-banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 /* ── Home page ──────────────────────────────────────────────── */
 
 .jp-hero {
