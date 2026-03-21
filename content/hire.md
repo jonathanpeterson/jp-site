@@ -5,7 +5,7 @@ url: /hire/
 
 ## Let's talk.
 
-I'm looking for senior product leadership roles — in companies working at the intersection of media, advertising, marketing technology, and AI especially in areas of conflict and intersection with actual human beings who are kids, parents, citizens and artists, not eyeballs and consumers (how I hate that word). I'm interested in hard problems, technically sophisticated teams, and organizations where product has real authority over what gets built and why.
+I'm looking for senior product leadership roles — in companies working at the intersection of media, advertising, marketing technology, and AI. Especially in areas of conflict and intersection with actual human beings who are kids, parents, citizens and artists, not eyeballs and consumers (how I hate that word). I'm interested in hard problems, technically sophisticated teams, and organizations where product has real authority over what gets built and why.
 
 I'm based in Atlanta and open to remote, hybrid, or local roles.
 
