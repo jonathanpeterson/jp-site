@@ -1,11 +1,12 @@
 ---
-title: Work
-url: /work/
+title: "Portfolio"
+aliases: ["/work/"]
+showDate: false
 ---
 
-I've been building things at the intersection of technology, business, and people since before most of the infrastructure we now take for granted existed.
+[Download Resume](/jonathan-peterson-resume.pdf) → &nbsp;·&nbsp; [Tools & Technologies →](/expertise/)
 
-[Download Resume](/jonathan-peterson-resume.pdf) → &nbsp;·&nbsp; [Full AdTech stack →](/expertise/#adtech)
+I can tell my career in a way that makes it sound like I had a plan. I didn't — I followed whatever seemed genuinely interesting next. What it adds up to is thirty years at the intersection of technology, media, and people: from the first commercial internet video webcast to programmatic advertising infrastructure at scale, to a fintech app grown to a million users, to AI governance work at a global agency. A running argument with myself about what we as technologists owe the people affected by what we build.
 
 ***
 
@@ -15,7 +16,7 @@ _A.D.A.M. Software · CNN Interactive · IBM Global Services · BellSouth_
 
 I got to interactive media through a side door. Six years of enterprise client/server consulting — cash management systems, warehouse automation, point-of-sale — followed by a left turn into CD-ROM, which in 1993 was where the interesting work was happening and let me use those film class muscles professionally. At A.D.A.M. Software I led the Windows development team for an award-winning consumer health product. We won awards, but CNN wanted to build the interactive media newsroom of the future.
 
-At CNN Interactive, I was the first outsider hired.  I picked the tools and built the tech and design team.  We built CD-ROM news products.  We won more awards - Newsweek Editors' Choice. INVISION and Codie awards. The work was good. But CD-ROM was dead.  So my reconstituted tiger team put CNN content on every new interactive platform that came along — interactive TV, 2-way pagers, Pointcast, all while supporting the publishing and distribution infrastructure behind CNN.com. Getting TV on the internet was the goal and in 1996 we produced the first commercial internet video webcast, covering the Presidential conventions live, on a medium most people accessed through a 28.8k modem. It was a genuine moon-shot feeling. I've been chasing that feeling in some form ever since.
+At CNN Interactive, I was the first outsider hired. I picked the tools and built the tech and design team. We built CD-ROM news products. We won more awards — Newsweek Editors' Choice. INVISION and Codie awards. The work was good. But CD-ROM was dead. So my reconstituted tiger team put CNN content on every new interactive platform that came along — interactive TV, 2-way pagers, Pointcast, all while supporting the publishing and distribution infrastructure behind CNN.com. Getting TV on the internet was the goal and in 1996 we produced the first commercial internet video webcast, covering the Presidential conventions live, on a medium most people accessed through a 28.8k modem. It was a genuine moon-shot feeling. I've been chasing that feeling in some form ever since.
 
 IBM Global Services came next. I was the Technical Director paired with a Creative Director and consultant team doing enterprise sales support — writing RFPs, briefing C-suite executives on internet strategy, winning contracts worth $30M+ annually. The clients were the Fortune 500 and we literally built the first significant web applications for Macy's, NYSE, British Airways, Starwood Hotels, the NHL, the PGA Tour. Concurrently I co-founded Zapworks, an early interactive advertising startup — my first real taste of building from zero.
 
@@ -39,7 +40,7 @@ And later moved to a small boutique traditional marketing agency, Lighthouse Mar
 
 _Turner Broadcasting · Technical Product Manager, Digital Advertising_
 
-Six years at Turner was the deepest technical chapter of my product career. My job was to build and optimize the advertising infrastructure across Turner's sports and entertainment brands — dozens of websites, mobile applications, and OTT platforms — supporting $400M+ in annual revenue. [Full AdTech stack →](/expertise/#adtech)
+Six years at Turner was the deepest technical chapter of my product career. My job was to build and optimize the advertising infrastructure across Turner's sports and entertainment brands — dozens of websites, mobile applications, and OTT platforms — supporting $400M+ in annual revenue. [Tools & Technologies →](/expertise/#adtech)
 
 What that meant in practice: replacing a legacy ad server with DFP across every property, building an internal JavaScript library that dynamically constructed ad tags, building a private programmatic marketplace using Rubicon, implementing Krux (now Salesforce DMP), and forking Prebid.js to build our own header bidding tool. Working with dozens of internal and vendor development teams and platform engineers to implement all these new technologies without disrupting the brand product feature development and create new revenue.
 
@@ -49,7 +50,7 @@ What that meant in practice: replacing a legacy ad server with DFP across every 
 
 _Steadyapp · HudsonMX_
 
-At Steadyapp, a FinTech startup, I led product for the growth team — collaborating with internal development, vendors and partners to create new capabilities and features - partner marketing programs, referrals, fraud prevention, and a multi-channel messaging strategy across email, push, and SMS. We doubled the installed base to one million users. The company raised $35M across its Series B and C. [Full MarTech stack →](/expertise/#martech)
+At Steadyapp, a FinTech startup, I led product for the growth team — collaborating with internal development, vendors and partners to create new capabilities and features - partner marketing programs, referrals, fraud prevention, and a multi-channel messaging strategy across email, push, and SMS. We doubled the installed base to one million users. The company raised $35M across its Series B and C. [Tools & Technologies →](/expertise/#martech)
 
 At HudsonMX I expanded the BuyerAssist campaign planning platform to support streaming audio, programmatic, search, and social alongside existing OOH, print, and direct digital workflows. I also removed all engineering dependencies from the demo environment allowing one-click resets of sample and client imported data — cutting prospect sales cycles and shortening onboarding and training significantly.
 
@@ -70,11 +71,3 @@ The most technically interesting work was building an agentic LLM-powered intake
 Six US patents across content distribution, network communications, and personalization infrastructure — filed during the BellSouth years when we were building architecture that didn't have a name yet.
 
 _6826602 · 6823372 · 7224698 · 10306504 · 7263102 · 8085796_
-
-***
-
-> **Available for senior product leadership and fractional engagements.**
->
-> I've run a fractional CTO practice before and I know how to come in fast, get oriented, and be genuinely useful — not just present.
->
-> [Let's talk →](/hire/)
