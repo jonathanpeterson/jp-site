@@ -2,8 +2,19 @@
   "$schema": "https://frontmatter.codes/frontmatter.schema.json",
   "frontMatter.content.pageFolders": [
     {
-      "title": "content",
-      "path": "[[workspace]]/content"
+      "title": "Writing",
+      "path": "[[workspace]]/content/writing",
+      "previewPath": "/writing"
+    },
+    {
+      "title": "DJ",
+      "path": "[[workspace]]/content/dj",
+      "previewPath": "/dj"
+    },
+    {
+      "title": "Projects",
+      "path": "[[workspace]]/content/projects",
+      "previewPath": "/projects"
     }
   ],
   "frontMatter.content.publicFolder": "static",
@@ -14,6 +25,7 @@
     {
       "name": "default",
       "pageBundle": false,
+      "previewPath": null,
       "fields": [
         {
           "title": "Title",
@@ -40,7 +52,7 @@
         {
           "title": "Is in draft",
           "name": "draft",
-          "type": "boolean"
+          "type": "draft"
         },
         {
           "title": "Tags",
@@ -51,11 +63,6 @@
           "title": "Categories",
           "name": "categories",
           "type": "categories"
-        },
-        {
-          "title": "url",
-          "name": "url",
-          "type": "string"
         }
       ]
     }
