@@ -1,6 +1,8 @@
 ---
 title: About
 url: /about/
+date: 2026-03-24T17:19:15.145Z
+description: About Jonathan Peterson
 ---
 
 ![](/images/made_in_atl.jpg)
