@@ -1,0 +1,40 @@
+{
+  "$schema": "https://beta.frontmatter.codes/schema/config.json",
+  "frontMatter.projectTitle": "JP Site",
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "Pages",
+      "path": "[[workspace]]/content"
+    }
+  ],
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "default",
+      "previewPath": null,
+      "pageBundle": false,
+      "fields": [
+        {
+          "name": "title",
+          "type": "string",
+          "single": true
+        },
+        {
+          "name": "description",
+          "type": "string",
+          "single": true
+        },
+        {
+          "name": "draft",
+          "type": "boolean"
+        },
+        {
+          "name": "date",
+          "type": "datetime"
+        }
+      ]
+    }
+  ],
+  "frontMatter.taxonomy.tags": [],
+  "frontMatter.taxonomy.categories": [],
+  "frontMatter.staticSiteGenerator": "hugo"
+}
