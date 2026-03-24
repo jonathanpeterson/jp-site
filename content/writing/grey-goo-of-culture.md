@@ -2,6 +2,7 @@
 title: "AI Is Turning Culture Into Grey Goo"
 date: 2026-03-14
 tags: ["tech-commentary"]
+categories: ["writing"]
 description: "The grey goo hypothesis for AI-generated culture — and why the farmers market might be the model for what comes next."
 ---
 

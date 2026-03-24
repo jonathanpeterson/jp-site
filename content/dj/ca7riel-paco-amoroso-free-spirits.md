@@ -4,8 +4,12 @@ date: 2026-03-20
 description: This dropped yesterday - great listen for the 1st day of spring
 tags:
   - music
+categories:
+  - dj
 featured: false
 draft: false
+aliases:
+  - /writing/ca7riel-paco-amoroso-free-spirits/
 ---
 
 I've loved these guys since I found them from their [Tiny Decks show a couple years ago.](https://www.npr.org/2024/10/04/g-s1-25927/ca7riel-paco-amoroso-tiny-desk-concert)

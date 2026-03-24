@@ -1,9 +1,6 @@
 ---
 title: "Jonny Spins"
-url: "/dj/"
 ---
-
-## Jonny Spins
 
 **Dance Music for Old People**
 

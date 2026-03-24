@@ -4,6 +4,8 @@ date: 2026-03-15
 description: In 1996, our team at CNN Interactive produced the first commercial internet video webcast. Here's what that felt like.
 tags:
   - tech-history
+categories:
+  - writing
 aliases:
   - /writing/internet-on-television/
 series:

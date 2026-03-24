@@ -2,6 +2,7 @@
 title: "I Like to Make Cool Things"
 date: 2026-03-13
 tags: ["personal", "tech-commentary"]
+categories: ["writing"]
 description: "What my CNN Interactive interview taught me about what actually drives me — and how the answer has changed over thirty years."
 featured: true
 ---
