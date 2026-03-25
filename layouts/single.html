@@ -10,9 +10,7 @@
           <img src="{{ . }}" alt="" />
         </div>
       {{ end }}
-      <h1 class="mb-8 mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-        {{ .Title | emojify }}
-      </h1>
+      <h1 class="jp-page-title">{{ .Title | emojify }}</h1>
       {{ if or
         (.Params.showDate | default (.Site.Params.article.showDate | default true))
         (and (.Params.showDateUpdated | default (.Site.Params.article.showDateUpdated | default false)) (ne (partial "functions/date.html" .Date) (partial "functions/date.html" .Lastmod)))

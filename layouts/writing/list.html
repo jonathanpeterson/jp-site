@@ -1,7 +1,5 @@
 {{- define "main" }}
-<div class="jp-section-header">
-  <h1>Writing</h1>
-</div>
+<h1 class="jp-page-title">Writing</h1>
 <div class="jp-post-list">
   {{- $pages := where .Site.RegularPages "Section" "writing" }}
   {{- range $pages }}

@@ -195,6 +195,15 @@ a:hover {
   color: var(--secondary);
 }
 
+/* ── Page title (consistent across section pages) ───────────── */
+
+.jp-page-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin: 0 0 1.5rem;
+  line-height: 1.4;
+}
+
 /* ── Writing list & DJ feed ─────────────────────────────────── */
 
 .jp-section-header {
