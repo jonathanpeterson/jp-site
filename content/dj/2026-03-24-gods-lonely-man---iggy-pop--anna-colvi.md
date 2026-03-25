@@ -1,7 +1,7 @@
 ---
 title: God's Lonely Man - Iggy Pop & Anna Colvi
-description: ""
-date: 2026-03-24T21:18:04.094Z
+description: Iggy has done duets with a batch of awesome women over the years.
+date: 2026-03-24T21:49:25.313Z
 preview: ""
 draft: false
 tags:

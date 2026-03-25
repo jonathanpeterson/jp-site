@@ -34,23 +34,25 @@
     </p>
     <a class="jp-cta" href="/dj/">Dance Music for Old People →</a>
   </div>
-</div>
 
-{{- $pages := where .Site.RegularPages "Section" "writing" }}
-{{- $pages = first 5 $pages }}
-{{- if $pages }}
-<div class="jp-recent">
-  <h2>Recently <a class="jp-recent-all" href="/writing/">See all →</a></h2>
-  <div class="jp-recent-posts">
-    {{- range $pages }}
-    <div class="jp-recent-post">
-      {{ partial "content-icon.html" . }}
-      <span class="jp-recent-date">{{ .Date.Format "Jan 2, 2006" }}</span>
-      <a href="{{ .Permalink }}">{{ .Title }}</a>
+  {{- $writing := where .Site.RegularPages "Section" "writing" }}
+  {{- $dj := where .Site.RegularPages "Section" "dj" }}
+  {{- $pages := first 5 (sort (append $writing $dj) "Date" "desc") }}
+  {{- if $pages }}
+  <div class="jp-recent">
+    <h2>Recently</h2>
+    <div class="jp-recent-posts">
+      {{- range $pages }}
+      <div class="jp-recent-post">
+        {{ partial "content-icon.html" . }}
+        <span class="jp-recent-date">{{ .Date.Format "Jan 2, 2006" }}</span>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </div>
+      {{- end }}
     </div>
-    {{- end }}
   </div>
+  {{- end }}
+
 </div>
-{{- end }}
 
 {{- end }}
