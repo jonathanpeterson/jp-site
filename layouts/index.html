@@ -10,7 +10,7 @@
   <p class="jp-hero-tagline">Product leader. Engineer at heart. Frustrated artist. Enthusiastic DJ for the afterparty.</p>
 </div>
 
-<div class="jp-paths">
+<section class="jp-paths">
 
   <div class="jp-path">
     <h2>Writing</h2>
@@ -45,7 +45,7 @@
       {{- range $pages }}
       <div class="jp-recent-post">
         {{ partial "content-icon.html" . }}
-        <span class="jp-recent-date">{{ .Date.Format "Jan 2, 2006" }}</span>
+        <time class="jp-recent-date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
         <a href="{{ .Permalink }}">{{ .Title }}</a>
       </div>
       {{- end }}
@@ -53,6 +53,6 @@
   </div>
   {{- end }}
 
-</div>
+</section>
 
 {{- end }}

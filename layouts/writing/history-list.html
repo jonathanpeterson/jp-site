@@ -6,7 +6,7 @@
     {{- if in .Params.tags "tech-history" }}
     <div class="jp-post-item">
       {{ partial "content-icon.html" . }}
-      <span class="jp-recent-date">{{ .Date.Format "Jan 2, 2006" }}</span>
+      <time class="jp-recent-date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
       <a href="{{ .Permalink }}">{{ .Title }}</a>
       {{- if .Description }}<p class="jp-post-desc">{{ .Description }}</p>{{- end }}
     </div>
