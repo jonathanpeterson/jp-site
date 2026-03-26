@@ -3,10 +3,6 @@ title: "A Conversation with Marc Canter, Part II: \"I took the 90's off...\""
 description: "The conclusion of my 2003 email interview with Marc Canter — on open standards, what Microsoft would do next, and why blogging mattered."
 date: 2003-02-17T00:00:00.000Z
 draft: false
-tags:
-  - tech-history
-categories:
-  - writing
 slug: marc-canter-conversation-part-2
 ---
 

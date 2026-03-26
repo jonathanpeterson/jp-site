@@ -3,10 +3,6 @@ title: "Internet in Evolution: The Medianet"
 description: "Written in August 2001 as the start of a book proposal — a framework for thinking about the coming collision between consumers, publishers, and governments over broadband media."
 date: 2001-08-21T00:00:00.000Z
 draft: false
-tags:
-  - tech-history
-categories:
-  - writing
 slug: internet-in-evolution-the-medianet
 ---
 

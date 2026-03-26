@@ -15,10 +15,6 @@ buildFuture = false
   tag = "tags"
   category = "categories"
 
-[permalinks]
-  writing = "/writing/:slug/"
-  dj = "/dj/:slug/"
-
 [menu]
   [[menu.main]]
     identifier = "about"
