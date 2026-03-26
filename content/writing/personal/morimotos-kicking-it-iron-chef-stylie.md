@@ -4,10 +4,6 @@ description: "A dinner at Morimoto's in Philadelphia, December 2001 — the rest
 banner: "/images/morimoto-hero.jpg"
 date: 2001-12-12T00:00:00.000Z
 draft: false
-tags:
-  - personal
-categories:
-  - writing
 slug: morimotos-kicking-it-iron-chef-stylie
 ---
 
