@@ -9,9 +9,9 @@ categories:
   - writing
 slug: morimotos-kicking-it-iron-chef-stylie
 ---
-```json
-We were lucky enough to eat at Iron Chef Morimoto's namesake restaurant in Philly the month it opened, thanks to my wife's cousin getting a reservation.  I mostly wrote this on the plane coming home and was one of the first reviews of the restaurant on the internet. 
-```
+
+> We were lucky enough to eat at Iron Chef Morimoto's namesake restaurant in Philly the month it opened, thanks to my wife's cousin getting a reservation.  I mostly wrote this on the plane coming home and was one of the first reviews of the restaurant on the internet. 
+
 ---
 We met Ryan and Alice a couple blocks away from [Morimoto's](http://www.morimotorestaurant.com/) at Buddakan, also owned by Stephen Starr who funded Morimoto's. Buddakan was a good intro: 45-foot-high ceilings, high-tech zen (silver painted columns, woven aluminum and mahogany seats) and the eponymous 20-foot tall golden Buddha presiding over the whole scene.
 
