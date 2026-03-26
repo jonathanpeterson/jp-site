@@ -1,0 +1,10 @@
+{
+  "content": "content",
+  "media": "static/images",
+  "public": "static",
+  "configs": [
+    ".github/workflows/hugo.yml"
+  ],
+  "custom-commit": false,
+  "arrangement": []
+}
