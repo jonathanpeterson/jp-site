@@ -9,7 +9,7 @@
           class="jp-avatar"
         />
       </a>
-      {{ partial "logo.html" . }}
+      <span style="padding-left: 0.75rem">{{ partial "logo.html" . }}</span>
     </div>
     {{/* Main menu */}}
     {{ if or .Site.Menus.main (.Site.Params.enableSearch | default false) }}
