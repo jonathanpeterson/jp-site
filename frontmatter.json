@@ -21,6 +21,12 @@
   "frontMatter.framework.id": "hugo",
   "frontMatter.git.enabled": true,
   "frontMatter.preview.host": "http://localhost:1313",
+  "frontMatter.taxonomy.customTaxonomy": [
+    {
+      "id": "categories",
+      "options": ["writing", "dj", "projects"]
+    }
+  ],
   "frontMatter.taxonomy.contentTypes": [
     {
       "name": "default",

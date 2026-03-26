@@ -6,7 +6,8 @@ preview: ""
 draft: false
 tags:
     - music
-categories: []
+categories:
+    - dj
 ---
 
 This scrolled through in my things to listen to feed - and it's awesome and I really need to spent more time with Anna Colvi's backcatalog, as I mostly knew about her writing a Peaky Blinders season.
