@@ -2,6 +2,9 @@ colorScheme = "custom"
 defaultAppearance = "auto"
 description = "Product leader. Engineer at heart. Enthusiastic DJ for the afterparty."
 showReadingTime = true
+
+[article]
+  showAuthor = false
 showBreadcrumbs = false
 showCodeCopyButtons = true
 
