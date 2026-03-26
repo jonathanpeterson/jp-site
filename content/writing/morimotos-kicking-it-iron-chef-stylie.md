@@ -14,10 +14,19 @@ slug: morimotos-kicking-it-iron-chef-stylie
 
 ---
 We met Ryan and Alice a couple blocks away from [Morimoto's](http://www.morimotorestaurant.com/) at Buddakan, also owned by Stephen Starr who funded Morimoto's. Buddakan was a good intro: 45-foot-high ceilings, high-tech zen (silver painted columns, woven aluminum and mahogany seats) and the eponymous 20-foot tall golden Buddha presiding over the whole scene.
+![](/images/buddakan.webp)
 
 We walked over to Morimoto's. The exterior wasn't all that exciting, but it did share the front facade with a kung-fu school. I had visions of Morimoto training a cadre of killer sous-chefs to take care of that damned Bobby Flay once and for all.
 
-The restaurant has a low-ceilinged entry with a gigantic back-lit woman's face on the left. The dining room is open, narrow, deep, with a very high ceiling made up of waves of bamboo strips, bamboo flooring and pale green walls. The overall feel is an Asian post-modern screening room. The lounge upstairs — where the projection room would be — is womb-like: low-ceilinged, paneled in bamboo, with low white pleather wrap-around couches and a itty-bitty bar tucked in the corner. An 8-foot wide blob-shaped hole in the wall let us look out over the whole dining room. In keeping with the screening room metaphor, Morimoto's domain — the kitchen and sushi bar — is in the back of the restaurant, where the screen would be.
+The restaurant has a low-ceilinged entry with a gigantic back-lit woman's face on the left. The dining room is open, narrow, deep, with a very high ceiling made up of waves of bamboo strips, bamboo flooring and pale green walls. The overall feel is an Asian post-modern screening room. 
+
+
+
+The lounge upstairs — where the projection room would be — is womb-like: low-ceilinged, paneled in bamboo, with low white pleather wrap-around couches and a itty-bitty bar tucked in the corner. An 8-foot wide blob-shaped hole in the wall let us look out over the whole dining room. In keeping with the screening room metaphor, Morimoto's domain — the kitchen and sushi bar — is in the back of the restaurant, where the screen would be.
+
+![](/images/morimoto-lounge.png)
+
+![](/images/morimoto-projection-view.jpg)
 
 The restaurant has wide tables down the center seating eight, with rocket-age bench seats covered in the same white pleather as the lounge's couches. Tempered glass walls separate the tables and are internally lit with continuously cycling color. The walls have large wavy organic-shaped sculpture picked out with halogen spotlights that dim and brighten, slowly changing the shadows and wall colors. The light lime green glass tabletops have built-in white lamps that seemed frighteningly phallic to us. The tables were set with thick mahogany chopsticks set on small river rocks. We would later discover that the downstairs bathroom continued the design trends with bamboo panels, flat black river rock floors and mysterious infrared hand dryers inset in the walls behind blob-shaped holes.
 
