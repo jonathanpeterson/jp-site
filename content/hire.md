@@ -1,5 +1,6 @@
 ---
 title: Hire Me
+description: "Senior product leadership, fractional engagements, and the right collaboration. Based in Atlanta, open to remote. Let's talk."
 url: /hire/
 ---
 

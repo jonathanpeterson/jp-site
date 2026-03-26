@@ -1,5 +1,6 @@
 ---
 title: "Projects"
+description: "Things I'm currently building: FocusAlert, ATL Reader, PopLife, and a sadly outdated portfolio."
 layout: "projects-index"
 showDate: false
 ---

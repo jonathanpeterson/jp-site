@@ -1,5 +1,6 @@
 ---
 title: "Jonny Spins"
+description: "Jonny Spins: funk, R&B, disco, house, and old school hip-hop from the 70s to today. Dance music for old people."
 ---
 
 **Dance Music for Old People**

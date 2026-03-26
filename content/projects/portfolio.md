@@ -1,5 +1,6 @@
 ---
 title: "Portfolio"
+description: "Thirty years shipping product across media, advertising, fintech, and AI — from CNN.com to programmatic at Turner to a million-user fintech app."
 aliases: ["/work/"]
 showDate: false
 ---
