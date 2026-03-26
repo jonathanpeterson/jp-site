@@ -75,8 +75,14 @@
 
 .jp-hero-tagline {
   font-size: 1rem;
-  color: var(--secondary);
-  margin: 0;
+  font-weight: 400;
+  color: rgb(64 64 64);
+  text-align: center;
+  margin: -0.5rem 0 0;
+}
+
+.dark .jp-hero-tagline {
+  color: rgb(163 163 163); /* neutral-400 */
 }
 
 .jp-paths {
