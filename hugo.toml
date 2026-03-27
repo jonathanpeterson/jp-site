@@ -11,6 +11,9 @@ buildDrafts = false
 buildFuture = false
 
 
+[services.rss]
+  limit = 20
+
 [taxonomies]
   tag = "tags"
   category = "categories"
