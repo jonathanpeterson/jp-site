@@ -1,0 +1,155 @@
+media:
+  input: static/images
+  output: /images
+
+content:
+  - name: writing
+    label: Writing
+    type: collection
+    path: content/writing
+    exclude: "history/**,personal/**"
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: description
+        label: Description
+        type: string
+      - name: date
+        label: Date
+        type: date
+      - name: draft
+        label: Draft
+        type: boolean
+      - name: tags
+        label: Tags
+        type: select
+        multiple: true
+        options:
+          values: [personal, tech-history, music, culture]
+      - name: body
+        label: Content
+        type: rich-text
+
+  - name: writing-history
+    label: Writing — Internet History
+    type: collection
+    path: content/writing/history
+    exclude: "_index.md"
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: description
+        label: Description
+        type: string
+      - name: date
+        label: Date
+        type: date
+      - name: draft
+        label: Draft
+        type: boolean
+      - name: slug
+        label: Slug
+        type: string
+      - name: body
+        label: Content
+        type: rich-text
+
+  - name: writing-personal
+    label: Writing — Personal
+    type: collection
+    path: content/writing/personal
+    exclude: "_index.md"
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: description
+        label: Description
+        type: string
+      - name: date
+        label: Date
+        type: date
+      - name: draft
+        label: Draft
+        type: boolean
+      - name: banner
+        label: Banner Image
+        type: image
+      - name: slug
+        label: Slug
+        type: string
+      - name: body
+        label: Content
+        type: rich-text
+
+  - name: dj
+    label: DJ
+    type: collection
+    path: content/dj
+    exclude: "_index.md"
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: description
+        label: Description
+        type: string
+      - name: date
+        label: Date
+        type: date
+      - name: draft
+        label: Draft
+        type: boolean
+      - name: body
+        label: Content
+        type: rich-text
+
+  - name: projects
+    label: Projects
+    type: collection
+    path: content/projects
+    exclude: "_index.md"
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: description
+        label: Description
+        type: string
+      - name: date
+        label: Date
+        type: date
+      - name: draft
+        label: Draft
+        type: boolean
+      - name: body
+        label: Content
+        type: rich-text
+
+  - name: pages
+    label: Pages
+    type: collection
+    path: content
+    match: "*.md"
+    exclude: "_index.md"
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: description
+        label: Description
+        type: string
+      - name: draft
+        label: Draft
+        type: boolean
+      - name: body
+        label: Content
+        type: rich-text
