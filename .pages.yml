@@ -2,15 +2,6 @@ media:
   input: static/images
   output: /images
 
-components:
-  tags:
-    - name: tags
-      label: Tags
-      type: select
-      multiple: true
-      options:
-        values: [tech-history, personal, music, dj, food, culture, opinion]
-
 content:
   - name: writing
     label: Writing
@@ -31,7 +22,12 @@ content:
       - name: draft
         label: Draft
         type: boolean
-      - $ref: components.tags
+      - name: tags
+        label: Tags
+        type: select
+        multiple: true
+        options:
+          values: [tech-history, personal, music, dj, food, culture, opinion]
       - name: body
         label: Content
         type: rich-text
@@ -58,7 +54,12 @@ content:
       - name: slug
         label: Slug
         type: string
-      - $ref: components.tags
+      - name: tags
+        label: Tags
+        type: select
+        multiple: true
+        options:
+          values: [tech-history, personal, music, dj, food, culture, opinion]
       - name: body
         label: Content
         type: rich-text
@@ -88,7 +89,12 @@ content:
       - name: slug
         label: Slug
         type: string
-      - $ref: components.tags
+      - name: tags
+        label: Tags
+        type: select
+        multiple: true
+        options:
+          values: [tech-history, personal, music, dj, food, culture, opinion]
       - name: body
         label: Content
         type: rich-text
@@ -112,7 +118,12 @@ content:
       - name: draft
         label: Draft
         type: boolean
-      - $ref: components.tags
+      - name: tags
+        label: Tags
+        type: select
+        multiple: true
+        options:
+          values: [tech-history, personal, music, dj, food, culture, opinion]
       - name: body
         label: Content
         type: rich-text
@@ -136,7 +147,12 @@ content:
       - name: draft
         label: Draft
         type: boolean
-      - $ref: components.tags
+      - name: tags
+        label: Tags
+        type: select
+        multiple: true
+        options:
+          values: [tech-history, personal, music, dj, food, culture, opinion]
       - name: body
         label: Content
         type: rich-text
