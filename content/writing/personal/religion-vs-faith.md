@@ -1,9 +1,10 @@
 ---
 title: Religion vs. faith
 description: Some atypically public musings on my religious belief
-date: 2010-01-31T16:23:13.101Z
+date: 2026-03-31
 draft: false
 slug: religion-faith
+tags: personal
 ---
 To find a relationship with God, I had to journey alone. I was not seeking, I was floating; no goal, no direction, but no pressure or need for either. I enjoyed life as it came and rejoiced in each day.
 
