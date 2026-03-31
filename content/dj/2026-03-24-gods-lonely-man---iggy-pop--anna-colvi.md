@@ -1,19 +1,14 @@
 ---
 title: God's Lonely Man - Iggy Pop & Anna Colvi
 description: Iggy has done duets with a batch of awesome women over the years.
-date: 2026-03-24T21:49:25.313Z
-preview: ""
+date: 2026-03-31
 draft: false
-tags:
-    - music
-categories:
-    - dj
+tags: music
 ---
-
 This scrolled through in my things to listen to feed - and it's awesome and I really need to spent more time with Anna Colvi's backcatalog, as I mostly knew about her writing a Peaky Blinders season.
 
 But [Iggy's duet with Anna Colvi]
-(https://soundcloud.com/annacalvi/gods-lonely-man) is a solid tune, but got me thinking about just how many duets Iggy Pop has done with awesome women musicians.
+([https://soundcloud.com/annacalvi/gods-lonely-man](https://soundcloud.com/annacalvi/gods-lonely-man)) is a solid tune, but got me thinking about just how many duets Iggy Pop has done with awesome women musicians.
 
 [Did you Evah - with Debbie Harry in 1990](https://www.youtube.com/watch?v=d3YSYe601F0) with serious [Only Lovers Left Alive](https://www.youtube.com/watch?v=pkeWhokaPPs) vibes
 
