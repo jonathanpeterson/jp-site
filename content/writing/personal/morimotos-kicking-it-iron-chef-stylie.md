@@ -1,15 +1,18 @@
 ---
 title: "Morimoto's: Kicking it Iron Chef Stylie"
-description: "A dinner at Morimoto's in Philadelphia, December 2001 — the restaurant, the chef, and a seven-course omakase that held up to the Iron Chef mythology."
-banner: "/images/morimoto-hero.jpg"
-date: 2001-12-12T00:00:00.000Z
+description: A dinner at Morimoto's in Philadelphia, December 2001 — the
+  restaurant, the chef, and a seven-course omakase that held up to the Iron Chef
+  mythology.
+date: 2026-03-31
 draft: false
+banner: /images/morimoto-hero.jpg
 slug: morimotos-kicking-it-iron-chef-stylie
+tags: personal
 ---
-
 > We were lucky enough to eat at Iron Chef Morimoto's namesake restaurant in Philly the month it opened, thanks to my wife's cousin getting a reservation.  I mostly wrote this on the plane coming home and was one of the first reviews of the restaurant on the internet. 
 
 ---
+
 We met Ryan and Alice a couple blocks away from [Morimoto's](http://www.morimotorestaurant.com/) at Buddakan, also owned by Stephen Starr who funded Morimoto's. Buddakan was a good intro: 45-foot-high ceilings, high-tech zen (silver painted columns, woven aluminum and mahogany seats) and the eponymous 20-foot tall golden Buddha presiding over the whole scene.
 ![](/images/buddakan.webp)
 
