@@ -244,3 +244,43 @@ a:hover {
   border-top: 1px solid var(--border);
   padding-top: 2rem;
 }
+
+/* ── Inline footnotes ────────────────────────────────────────── */
+
+.fn-toggle {
+  display: none;
+}
+
+.fn-label {
+  cursor: pointer;
+  border-bottom: 1px dashed;
+  color: rgb(var(--color-primary-600));
+}
+
+.fn-label:hover {
+  color: rgb(var(--color-primary-700));
+}
+
+.dark .fn-label {
+  color: rgb(var(--color-primary-400));
+}
+
+.fn-content {
+  display: none;
+  margin: 0.5rem 0;
+  padding: 0.5rem 0.75rem;
+  background: rgb(var(--color-neutral-100));
+  border-left: 3px solid rgb(var(--color-primary-500));
+  border-radius: 0 0.25rem 0.25rem 0;
+  font-size: 0.9rem;
+  color: rgb(var(--color-neutral-700));
+}
+
+.dark .fn-content {
+  background: rgb(var(--color-neutral-800));
+  color: rgb(var(--color-neutral-300));
+}
+
+.fn-toggle:checked + .fn-content {
+  display: block;
+}

@@ -1,0 +1,6 @@
+{{- if eq .Destination "fn" -}}
+  {{- $id := printf "fn-%d" .Ordinal -}}
+  <label for="{{ $id }}" class="fn-label">{{ .PlainText }}</label><input type="checkbox" id="{{ $id }}" class="fn-toggle"><span class="fn-content">{{ .Title }}</span>
+{{- else -}}
+  <img src="{{ .Destination | safeURL }}" alt="{{ .PlainText }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ with .Attributes.class }} class="{{ . }}"{{ end }}>
+{{- end -}}
