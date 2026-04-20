@@ -1,0 +1,13 @@
+---
+import BaseLayout from '../components/layout/BaseLayout.astro';
+import { getEntry, render } from 'astro:content';
+
+const page = await getEntry('pages', 'hire');
+const { Content } = await render(page!);
+---
+
+<BaseLayout title="Hire Me" description={page?.data.description}>
+  <div class="prose dark:prose-invert max-w-prose">
+    <Content />
+  </div>
+</BaseLayout>

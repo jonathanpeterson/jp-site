@@ -1,0 +1,33 @@
+---
+import type { GetStaticPaths } from 'astro';
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../components/layout/BaseLayout.astro';
+
+export const getStaticPaths: GetStaticPaths = async () => {
+  const posts = await getCollection('dj', ({ data }) => !data.draft);
+  return posts.map(post => ({
+    // post.id is the filename without extension in Astro v6
+    params: { slug: post.id },
+    props: { post },
+  }));
+};
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+
+const formattedDate = post.data.date.toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+---
+
+<BaseLayout title={post.data.title} description={post.data.description}>
+  <article class="jp-dj-post">
+    <h1 class="jp-page-title">{post.data.title}</h1>
+    <span class="jp-recent-date block mb-6">{formattedDate}</span>
+    <div class="prose dark:prose-invert">
+      <Content />
+    </div>
+  </article>
+</BaseLayout>

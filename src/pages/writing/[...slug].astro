@@ -1,0 +1,48 @@
+---
+import type { GetStaticPaths } from 'astro';
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../components/layout/BaseLayout.astro';
+
+export const getStaticPaths: GetStaticPaths = async () => {
+  const posts = await getCollection('writing', ({ data }) => !data.draft);
+  return posts.map(post => ({
+    params: { slug: post.id.replace(/^(history|personal)\//, '') },
+    props: { post },
+  }));
+};
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+
+const formattedDate = post.data.date.toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+---
+
+<BaseLayout title={post.data.title} description={post.data.description}>
+  <article>
+    <header class="max-w-prose">
+      {post.data.banner && (
+        <div class="jp-page-banner">
+          <img src={post.data.banner} alt="" />
+        </div>
+      )}
+      <h1 class="jp-page-title">{post.data.title}</h1>
+      <div class="mb-8 text-sm text-neutral-500 dark:text-neutral-400">
+        <time datetime={post.data.date.toISOString().split('T')[0]}>{formattedDate}</time>
+        {post.data.tags.length > 0 && (
+          <span class="ml-3">
+            {post.data.tags.map(tag => (
+              <span class="mr-2 text-xs uppercase tracking-wide">{tag}</span>
+            ))}
+          </span>
+        )}
+      </div>
+    </header>
+    <section class="prose dark:prose-invert max-w-prose">
+      <Content />
+    </section>
+  </article>
+</BaseLayout>

@@ -1,12 +1,28 @@
 {
-  "name": "jp-site",
-  "scripts": {
-    "dev": "concurrently \"hugo server\" \"tailwindcss -i ./_vendor/github.com/jpanther/congo/v2/assets/css/main.css -o ./assets/css/compiled/main.css --watch\"",
-    "build:css": "NODE_ENV=production tailwindcss -i ./_vendor/github.com/jpanther/congo/v2/assets/css/main.css -o ./assets/css/compiled/main.css --minify"
+  "name": "jp-astro",
+  "type": "module",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=22.12.0"
   },
-  "devDependencies": {
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^4.3.14",
+    "@astrojs/react": "^5.0.3",
+    "@astrojs/rss": "^4.0.18",
+    "@astrojs/tailwind": "^5.1.5",
+    "@keystatic/astro": "^5.0.6",
+    "@keystatic/core": "^0.5.50",
     "@tailwindcss/typography": "^0.5.19",
-    "concurrently": "^8.2.2",
-    "tailwindcss": "^3.4.19"
+    "astro": "^5.18.1",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "tailwindcss": "^3.4.19",
+    "unist-util-visit": "^5.1.0"
   }
 }

@@ -1,0 +1,14 @@
+---
+import BaseLayout from '../../components/layout/BaseLayout.astro';
+import { getEntry, render } from 'astro:content';
+
+const page = await getEntry('pages', 'portfolio');
+const { Content } = await render(page!);
+---
+
+<BaseLayout title="Projects" description={page?.data.description}>
+  <h1 class="jp-page-title">Projects</h1>
+  <div class="prose dark:prose-invert max-w-prose">
+    <Content />
+  </div>
+</BaseLayout>

@@ -1,0 +1,23 @@
+{
+  "baseUrl": "http://localhost:4321",
+  "tests": [
+    { "name": "Home", "path": "/" },
+    { "name": "About", "path": "/about/" },
+    { "name": "Writing index", "path": "/writing/" },
+    { "name": "Writing — a post", "path": "/writing/grey-goo-of-culture/" },
+    { "name": "Writing — Internet History index", "path": "/writing/history/" },
+    { "name": "Writing — a history post", "path": "/writing/internet-on-television/" },
+    { "name": "Writing RSS feed", "path": "/writing/index.xml" },
+    { "name": "Projects", "path": "/projects/" },
+    { "name": "DJ index", "path": "/dj/" },
+    { "name": "DJ — a post", "path": "/dj/gods-lonely-man/" },
+    { "name": "DJ RSS feed", "path": "/dj/index.xml" },
+    { "name": "Expertise", "path": "/expertise/" },
+    { "name": "Hire", "path": "/hire/" },
+    { "name": "Tag page — tech-history", "path": "/tags/tech-history/" },
+    { "name": "Tag page — personal", "path": "/tags/personal/" },
+    { "name": "Tag RSS feed", "path": "/tags/tech-history.xml" },
+    { "name": "Redirect — /work/", "path": "/work/index.html" },
+    { "name": "Keystatic admin", "path": "/keystatic" }
+  ]
+}

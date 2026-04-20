@@ -1,0 +1,21 @@
+---
+import BaseLayout from '../../components/layout/BaseLayout.astro';
+import PostList from '../../components/PostList.astro';
+import { getWritingPosts } from '../../utils/collections';
+
+const allPosts = await getWritingPosts();
+// Exclude music-tagged posts (those live in the DJ section)
+const posts = allPosts.filter(p => !p.data.tags.includes('music'));
+---
+
+<BaseLayout title="Writing" description="Writing on technology, product craft, and internet history.">
+  <h1 class="jp-page-title">Writing</h1>
+
+  <div class="mb-6">
+    <p class="text-sm text-neutral-500 dark:text-neutral-400">
+      Also: <a href="/writing/history/" class="font-medium">Internet History →</a>
+    </p>
+  </div>
+
+  <PostList posts={posts} />
+</BaseLayout>

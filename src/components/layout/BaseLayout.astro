@@ -1,0 +1,51 @@
+---
+import Header from './Header.astro';
+import Footer from './Footer.astro';
+import '../../styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+  isHome?: boolean;
+}
+
+const { title, description = 'Product leader. Engineer at heart. Enthusiastic DJ for the afterparty.', isHome = false } = Astro.props;
+const siteTitle = 'Jonathan Peterson';
+const fullTitle = title === siteTitle ? title : `${title} · ${siteTitle}`;
+const canonicalURL = new URL(Astro.url.pathname, Astro.site ?? 'https://jonathan-peterson.com');
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalURL} />
+    <!-- Open Graph -->
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:site_name" content={siteTitle} />
+    <meta property="og:type" content="website" />
+    <!-- Dark mode: read preference before page renders to avoid flash -->
+    <script is:inline>
+      (function() {
+        const stored = localStorage.getItem('theme');
+        if (stored === 'dark' || (!stored && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+          document.documentElement.classList.add('dark');
+        }
+      })();
+    </script>
+  </head>
+  <body class="min-h-screen dark:bg-neutral-900 dark:text-neutral-100">
+    <div class="mx-auto max-w-3xl px-4">
+      <Header isHome={isHome} />
+      <main>
+        <slot />
+      </main>
+      <Footer />
+    </div>
+  </body>
+</html>

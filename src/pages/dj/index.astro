@@ -1,0 +1,38 @@
+---
+import BaseLayout from '../../components/layout/BaseLayout.astro';
+import { getDJPosts } from '../../utils/collections';
+
+const posts = await getDJPosts();
+---
+
+<BaseLayout title="DJ" description="Dance music for old people — what I'm listening to and spinning.">
+  <h1 class="jp-page-title">Jonny Spins</h1>
+
+  <div class="jp-dj-page prose dark:prose-invert mb-8">
+    <p>
+      Funk · R&amp;B · Disco · 80s · Old School Hip-Hop · Classic House · Deep House · Dance Pop — from the 70s to today.
+    </p>
+    <p>
+      <a href="https://soundcloud.com/jonny-spins" target="_blank" rel="noopener">SoundCloud</a> ·
+      <a href="https://instagram.com/404_loko" target="_blank" rel="noopener">Instagram</a> ·
+      <a href="https://campsite.bio/jonnyspins" target="_blank" rel="noopener">Linktree</a>
+    </p>
+  </div>
+
+  {posts.length > 0 && (
+    <div class="jp-recent jp-dj-feed">
+      <h2>What I'm Listening To</h2>
+      <div class="jp-recent-posts">
+        {posts.map(post => (
+          <div class="jp-recent-post">
+            <time class="jp-recent-date" datetime={post.data.date.toISOString().split('T')[0]}>
+              {post.data.date.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}
+            </time>
+            <a href={`/dj/${post.id}/`}>{post.data.title}</a>
+            {post.data.description && <p>{post.data.description}</p>}
+          </div>
+        ))}
+      </div>
+    </div>
+  )}
+</BaseLayout>
