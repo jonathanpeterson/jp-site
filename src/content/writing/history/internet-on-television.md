@@ -1,7 +1,7 @@
 ---
 title: The Night We Put Television on the Internet
 description: In 1996, our team at CNN Interactive produced the first commercial internet video webcast. Here's what that felt like.
-date: 2026-03-15
+date: 1996-08-01
 draft: false
 tags: ["tech-history"]
 ---

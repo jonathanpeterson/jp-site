@@ -1,7 +1,7 @@
 ---
 title: "A Conversation with Marc Canter, Part I: \"I took the 90's off...\""
 description: In early 2003 I exchanged a week's worth of emails with Marc Canter — founder of MacroMind/Macromedia — about multimedia, the death of interactive TV, and what was then a brand-new thing called blogging.
-date: 2026-03-31
+date: 2003-11-01
 draft: false
 tags: ["tech-history"]
 ---

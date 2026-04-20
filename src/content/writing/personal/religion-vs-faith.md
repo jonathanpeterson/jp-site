@@ -1,7 +1,7 @@
 ---
 title: Religion vs. faith
 description: Some atypically public musings on my religious belief
-date: 2026-03-31
+date: 2005-01-01
 draft: false
 tags: ["personal"]
 ---
