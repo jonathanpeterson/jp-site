@@ -2,7 +2,6 @@
 title: "Internet in Evolution: The Medianet"
 description: Written in August 2001 as the start of a book proposal — a framework for thinking about the coming collision between consumers, publishers, and governments over broadband media.
 date: 2001-08-01
-draft: false
 tags: ["tech-history"]
 ---
 *I wrote this essay in late August 2001 as the start of a book proposal. Any traction it was likely to get was obliterated by the events of 9/11. But it is still one of the most heavily linked things I've ever written, so I'm reposting it without comments or updates.*

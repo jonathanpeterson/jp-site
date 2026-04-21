@@ -2,7 +2,6 @@
 title: "Morimoto's: Kicking it Iron Chef Stylie"
 description: A dinner at Morimoto's in Philadelphia, December 2001 — the restaurant, the chef, and a seven-course omakase that held up to the Iron Chef mythology.
 date: 2001-12-01
-draft: false
 banner: /images/morimoto-hero.jpg
 tags: ["personal"]
 ---

@@ -2,7 +2,6 @@
 title: God's Lonely Man - Iggy Pop & Anna Colvi
 description: Iggy has done duets with a batch of awesome women over the years.
 date: 2026-03-31
-draft: false
 tags: ["music"]
 ---
 This scrolled through in my things to listen to feed - and it's awesome and I really need to spent more time with Anna Colvi's backcatalog, as I mostly knew about her writing a Peaky Blinders season.

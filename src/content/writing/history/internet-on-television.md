@@ -2,7 +2,6 @@
 title: The Night We Put Television on the Internet
 description: In 1996, our team at CNN Interactive produced the first commercial internet video webcast. Here's what that felt like.
 date: 1996-08-01
-draft: false
 tags: ["tech-history"]
 ---
 In the summer of 1996, our team at CNN Interactive produced what was, to the best of our knowledge, the first commercial internet video webcast. We covered the Presidential conventions — both of them — live, streaming video over a medium that most of our audience accessed through a 28.8k dial-up modem.

@@ -7,7 +7,6 @@ const writingCollection = defineCollection({
     title: z.string(),
     description: z.string().optional(),
     date: z.coerce.date(),
-    draft: z.boolean().default(false),
     tags: z.array(z.string()).default([]),
     banner: z.string().optional(),
     slug: z.string().optional(),
@@ -20,7 +19,6 @@ const djCollection = defineCollection({
     title: z.string(),
     description: z.string().optional(),
     date: z.coerce.date(),
-    draft: z.boolean().default(false),
     tags: z.array(z.string()).default([]),
   }),
 });
@@ -31,7 +29,6 @@ const pagesCollection = defineCollection({
     title: z.string(),
     description: z.string().optional(),
     date: z.coerce.date().optional(),
-    draft: z.boolean().default(false),
     banner: z.string().optional(),
   }),
 });

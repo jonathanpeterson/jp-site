@@ -2,7 +2,6 @@
 title: "A Conversation with Marc Canter, Part II: \"I took the 90's off...\""
 description: The conclusion of my 2003 email interview with Marc Canter — on open standards, what Microsoft would do next, and why blogging mattered.
 date: 2003-11-01
-draft: false
 tags: ["tech-history"]
 ---
 *Originally published February 17, 2003 in [Amateur Hour: the "me" in media](https://web.archive.org/web/20031119023101/http://www.corante.com/amateur/articles/20030217-3668.html) on Corante. [Read Part I →](/writing/marc-canter-conversation-part-1/)*

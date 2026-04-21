@@ -2,7 +2,6 @@
 title: Breaking Down Peter Chernin's Comdex Keynote
 description: In 2002 I spent a weekend annotating Peter Chernin's Comdex keynote speech line by line. Big Content's arguments against digital rights haven't aged well.
 date: 2002-11-01
-draft: false
 tags: ["tech-history"]
 ---
 *Originally written November 23, 2002. Reposted here without updates.*

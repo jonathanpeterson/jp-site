@@ -1,7 +1,7 @@
 import { getCollection } from 'astro:content';
 
 export async function getWritingPosts() {
-  const posts = await getCollection('writing', ({ data }) => !data.draft);
+  const posts = await getCollection('writing');
   return posts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 }
 
@@ -16,7 +16,7 @@ export async function getPersonalPosts() {
 }
 
 export async function getDJPosts() {
-  const posts = await getCollection('dj', ({ data }) => !data.draft);
+  const posts = await getCollection('dj');
   return posts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 }
 
