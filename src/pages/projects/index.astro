@@ -4,11 +4,70 @@ import { getEntry, render } from 'astro:content';
 
 const page = await getEntry('pages', 'portfolio');
 const { Content } = await render(page!);
+
+const projects = [
+  {
+    title: 'This Site',
+    status: 'Active',
+    statusClass: 'jp-status-active',
+    description: 'Personal site and lab for vibe coding experiments. Astro, Tailwind, static files, GitHub Pages. The design, content strategy, and every iteration documented in public.',
+    links: [
+      { label: 'Charter', href: '/writing/website-charter/' },
+      { label: 'History', href: '/writing/history-of-this-site/' },
+      { label: 'GitHub', href: 'https://github.com/jonathanpeterson/jp-site', external: true },
+    ],
+  },
+  {
+    title: 'ATL News',
+    status: 'In Progress',
+    statusClass: 'jp-status-inprogress',
+    description: 'Local news aggregator for Atlanta — pulling from local outlets, neighborhood blogs, and public data sources into a single readable feed.',
+    links: [],
+  },
+  {
+    title: 'Interruption Manager',
+    status: 'In Progress',
+    statusClass: 'jp-status-inprogress',
+    description: 'Personal notification and interruption management utility for macOS. Structured approach to async communication and attention management.',
+    links: [],
+  },
+  {
+    title: 'TBD',
+    status: 'Concept',
+    statusClass: 'jp-status-concept',
+    description: '',
+    links: [],
+  },
+];
 ---
 
 <BaseLayout title="Projects" description={page?.data.description}>
   <h1 class="jp-page-title">Projects</h1>
-  <div class="prose dark:prose-invert max-w-prose">
+
+  <div class="prose dark:prose-invert max-w-prose mb-10">
     <Content />
+  </div>
+
+  <div class="jp-project-grid">
+    {projects.map(project => (
+      <div class="jp-project-card">
+        <div class="jp-project-header">
+          <h2 class="jp-project-title">{project.title}</h2>
+          <span class={`jp-status ${project.statusClass}`}>{project.status}</span>
+        </div>
+        {project.description && (
+          <p class="jp-project-desc">{project.description}</p>
+        )}
+        {project.links.length > 0 && (
+          <div class="jp-project-links">
+            {project.links.map(link => (
+              <a href={link.href} {...(link.external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}>
+                {link.label} →
+              </a>
+            ))}
+          </div>
+        )}
+      </div>
+    ))}
   </div>
 </BaseLayout>
