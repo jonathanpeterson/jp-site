@@ -1,3 +1,10 @@
+---
+title: "PopLife — Project Charter"
+description: "The charter for PopLife, a personal interruption manager built around a stack metaphor."
+date: 2026-03-10
+tags: ["projects"]
+---
+
 #### Problem
 	Modern knowledge work is interruption-driven. Every context switch costs recovery time, but the real cost is invisible: the loss of the state you were in before the interruption. To-do lists record tasks but not context. Note apps capture thoughts but not the stack. There is no tool designed around the simple reality that most work happens in layers — you were in the middle of something when something else demanded your attention.
 #### Solution
