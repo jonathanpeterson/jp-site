@@ -3,13 +3,55 @@
   "frontMatter.framework.id": "astro",
   "frontMatter.preview.host": "http://localhost:4321",
   "frontMatter.content.publicFolder": {
-    "path": "src/assets",
+    "path": "public",
     "relative": true
   },
-  "frontMatter.extends": [
-    ".frontmatter/starlight/contenttypes.json",
-    ".frontmatter/starlight/pagefolders.json",
-    ".frontmatter/starlight/aside.json"
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "Writing",
+      "path": "[[workspace]]/src/content/writing",
+      "previewPath": "writing",
+      "contentTypes": ["writing"]
+    },
+    {
+      "title": "DJ",
+      "path": "[[workspace]]/src/content/dj",
+      "previewPath": "dj",
+      "contentTypes": ["dj"]
+    }
+  ],
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "writing",
+      "pageBundle": false,
+      "clearEmpty": true,
+      "fields": [
+        { "name": "title", "type": "string", "single": true, "required": true },
+        { "name": "description", "type": "string", "single": true, "required": true },
+        { "name": "date", "type": "datetime", "required": true },
+        { "name": "tags", "type": "tags", "required": true }
+      ]
+    },
+    {
+      "name": "dj",
+      "pageBundle": false,
+      "clearEmpty": true,
+      "fields": [
+        { "name": "title", "type": "string", "single": true, "required": true },
+        { "name": "description", "type": "string", "single": true, "required": true },
+        { "name": "date", "type": "datetime", "required": true },
+        { "name": "tags", "type": "tags", "required": true }
+      ]
+    }
+  ],
+  "frontMatter.taxonomy.tags": [
+    "music",
+    "opinion",
+    "personal",
+    "professional",
+    "projects",
+    "tech-history",
+    "web"
   ],
   "frontMatter.git.enabled": true
 }

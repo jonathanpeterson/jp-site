@@ -1,7 +1,7 @@
 {
   "$schema": "https://beta.frontmatter.codes/schema/config.json",
   "frontMatter.projectTitle": "JP Site",
-  "frontMatter.framework.id": "astro",
+  "frontMatter.framework.id": "astro-starlight",
   "frontMatter.staticSiteGenerator": "astro",
   "frontMatter.content.pageFolders": [
     {
