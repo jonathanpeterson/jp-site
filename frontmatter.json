@@ -8,16 +8,38 @@
   },
   "frontMatter.content.pageFolders": [
     {
-      "title": "Writing",
-      "path": "[[workspace]]/src/content/writing",
-      "previewPath": "writing",
-      "contentTypes": ["writing"]
+      "title": "Guides",
+      "path": "[[workspace]]/src/content/docs/guides",
+      "previewPath": "guides"
     },
     {
-      "title": "DJ",
-      "path": "[[workspace]]/src/content/dj",
-      "previewPath": "dj",
-      "contentTypes": ["dj"]
+      "title": "References",
+      "path": "[[workspace]]/src/content/docs/reference",
+      "previewPath": "reference"
+    },
+    {
+      "title": "templates",
+      "path": "[[workspace]]/.frontmatter/templates"
+    },
+    {
+      "title": "writing",
+      "path": "[[workspace]]/src/content/writing"
+    },
+    {
+      "title": "dj",
+      "path": "[[workspace]]/src/content/dj"
+    },
+    {
+      "title": "pages",
+      "path": "[[workspace]]/src/content/pages"
+    },
+    {
+      "title": "personal",
+      "path": "[[workspace]]/src/content/writing/personal"
+    },
+    {
+      "title": "history",
+      "path": "[[workspace]]/src/content/writing/history"
     }
   ],
   "frontMatter.taxonomy.contentTypes": [
@@ -26,10 +48,28 @@
       "pageBundle": false,
       "clearEmpty": true,
       "fields": [
-        { "name": "title", "type": "string", "single": true, "required": true },
-        { "name": "description", "type": "string", "single": true, "required": true },
-        { "name": "date", "type": "datetime", "required": true },
-        { "name": "tags", "type": "tags", "required": true }
+        {
+          "name": "title",
+          "type": "string",
+          "single": true,
+          "required": true
+        },
+        {
+          "name": "description",
+          "type": "string",
+          "single": true,
+          "required": true
+        },
+        {
+          "name": "date",
+          "type": "datetime",
+          "required": true
+        },
+        {
+          "name": "tags",
+          "type": "tags",
+          "required": true
+        }
       ]
     },
     {
@@ -37,21 +77,60 @@
       "pageBundle": false,
       "clearEmpty": true,
       "fields": [
-        { "name": "title", "type": "string", "single": true, "required": true },
-        { "name": "description", "type": "string", "single": true, "required": true },
-        { "name": "date", "type": "datetime", "required": true },
-        { "name": "tags", "type": "tags", "required": true }
+        {
+          "name": "title",
+          "type": "string",
+          "single": true,
+          "required": true
+        },
+        {
+          "name": "description",
+          "type": "string",
+          "single": true,
+          "required": true
+        },
+        {
+          "name": "date",
+          "type": "datetime",
+          "required": true
+        },
+        {
+          "name": "tags",
+          "type": "tags",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "pages",
+      "previewPath": "'pages'",
+      "pageBundle": false,
+      "clearEmpty": true,
+      "fields": [
+        {
+          "name": "title",
+          "type": "string",
+          "single": true,
+          "required": true
+        },
+        {
+          "name": "description",
+          "type": "string",
+          "single": true
+        },
+        {
+          "name": "date",
+          "type": "datetime",
+          "default": "{{now}}"
+        },
+        {
+          "name": "banner",
+          "type": "string",
+          "single": true
+        }
       ]
     }
   ],
-  "frontMatter.taxonomy.tags": [
-    "music",
-    "opinion",
-    "personal",
-    "professional",
-    "projects",
-    "tech-history",
-    "web"
-  ],
-  "frontMatter.git.enabled": true
+  "frontMatter.git.enabled": true,
+  "frontMatter.website.host": "jonathan-peterson.com"
 }
