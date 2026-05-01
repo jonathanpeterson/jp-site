@@ -131,6 +131,17 @@
       ]
     }
   ],
+  "frontMatter.taxonomy.tags": [
+    "music",
+    "opinion",
+    "personal",
+    "professional",
+    "projects",
+    "tech-commentary",
+    "tech-history",
+    "web"
+  ],
+  "frontMatter.taxonomy.categories": [],
   "frontMatter.git.enabled": true,
   "frontMatter.website.host": "jonathan-peterson.com"
 }
