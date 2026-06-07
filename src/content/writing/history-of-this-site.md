@@ -31,10 +31,12 @@ Over the next two weeks the site got a custom orange/purple color scheme, a nav 
 
 But I still wanted to get something in the way of a CMS instead of local markdown editing.  I tried [Sveltia](https://sveltiacms.app/en/), then [Front Matter](https://gohugo.io/content-management/front-matter/) (a VS Code extension), then Pages CMS, none of which felt right. Each left config artifacts in the repo. The deeper issue was that Hugo's template lookup system made truly custom layouts hard without forking or monkey-patching the theme, and the more custom things got, the more that friction showed.
 
-## v3: Astro + Keystatic + GitHub Pages (April 20)
+## v3.0: Astro + Keystatic + GitHub Pages (April 20)
 
 Rebuilt from scratch in [Astro](https://astro.build/) so I could move to [Keystatic](https://keystatic.com/) for a light, form-based CMS. Kept all the content, and design decisions but threw out the theme entirely. Astro's component model means the HTML I write is the HTML that ships — no theme layer in between. [Tailwind](https://tailwindcss.com/) for styling, Keystatic for CMS (runs locally in dev, no external service required). GitHub Pages for hosting, same as before.
 
-## v3.1: Astro + ~~Keystatic~~ + GitHub Pages (April 21)
+## v3.0.1: Astro + ~~Keystatic~~ + Frontmatter + GitHub Pages (April 21)
 
-I'm done with trying to have CMS.  Keystatic is just too fragile, too many starts and stops of servers and reloads, draft state, which makes zero sense when local files are ALL draft and once pushed to git, they become live.  I'm just sailing the text file seas like God, [Ken Thompson and Dennis Ritchie intended](https://www.nokia.com/blog/the-invention-of-unix/).
+Keystatic turned out to be too fragile in practice — too many starts and stops of servers, too much reload friction, and a draft state model that makes no sense when local files are all implicitly draft and pushing to git is what makes them live. Dropped it.
+
+Went back to [Frontmatter CMS](https://frontmatter.codes/), and made local config tweaks to make it work better than previously.  Going to work with this for a while and see what I think.
