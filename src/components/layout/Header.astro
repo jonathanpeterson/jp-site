@@ -59,7 +59,7 @@ const navLinks = [
       <!-- Contact Me dropdown (mobile only) -->
       <div class="relative sm:hidden">
         <details id="contact-details">
-            <summary class="text-sm font-semibold text-neutral-700 dark:text-neutral-300 hover:text-orange-400 dark:hover:text-orange-300 cursor-pointer list-none select-none">
+            <summary class="contact-me-summary text-sm font-semibold text-neutral-700 dark:text-neutral-300 cursor-pointer list-none select-none">
               Contact Me
             </summary>
             <div class="absolute right-0 top-6 z-20 bg-white dark:bg-neutral-800 border border-neutral-200 dark:border-neutral-700 rounded-lg shadow-lg p-3 min-w-max">
@@ -131,6 +131,19 @@ const navLinks = [
     <p class="jp-hero-tagline">Product leader. Frustrated artist. Engineer at heart. Enthusiastic DJ for the afterparty.</p>
   )}
 </header>
+
+<style>
+  .contact-me-summary:hover,
+  details[open] .contact-me-summary {
+    text-decoration: underline;
+    text-decoration-color: rgb(var(--color-primary-500));
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 3px;
+  }
+  details:not([open]) .contact-me-summary:not(:hover) {
+    text-decoration: none;
+  }
+</style>
 
 <script>
   const btn = document.getElementById('theme-toggle');
