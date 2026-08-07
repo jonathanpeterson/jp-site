@@ -1,19 +1,24 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
-import tailwind from '@astrojs/tailwind';
+import tailwindcss from '@tailwindcss/vite';
 import mdx from '@astrojs/mdx';
 import react from '@astrojs/react';
+import { unified } from '@astrojs/markdown-remark';
 import { remarkFootnotes } from './src/utils/remarkFootnotes.ts';
 
 export default defineConfig({
   site: 'https://jonathan-peterson.com',
   output: 'static',
   integrations: [
-    tailwind({ applyBaseStyles: false }),
     mdx(),
     react(),
   ],
+  vite: {
+    plugins: [tailwindcss()],
+  },
   markdown: {
-    remarkPlugins: [remarkFootnotes],
+    processor: unified({
+      remarkPlugins: [remarkFootnotes],
+    }),
   },
 });

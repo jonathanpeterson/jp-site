@@ -1,7 +1,7 @@
+@import "tailwindcss";
 @import "./scheme.css";
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@plugin "@tailwindcss/typography";
+@variant dark (&:where(.dark, .dark *));
 
 /* ── Nav avatar ─────────────────────────────────────────────── */
 
