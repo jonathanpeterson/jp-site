@@ -57,6 +57,16 @@
   display: block;
 }
 
+@media (max-width: 639px) {
+  .jp-home-banner {
+    max-height: none;
+  }
+  .jp-home-banner img {
+    height: auto;
+    object-fit: initial;
+  }
+}
+
 /* ── Home page ──────────────────────────────────────────────── */
 
 .jp-hero {
