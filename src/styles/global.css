@@ -98,17 +98,6 @@
   color: rgb(163 163 163);
 }
 
-.jp-hero-tagline {
-  font-size: 1rem;
-  font-weight: 400;
-  color: rgb(64 64 64);
-  text-align: center;
-  margin: 1rem 0 0;
-}
-
-.dark .jp-hero-tagline {
-  color: rgb(163 163 163); /* neutral-400 */
-}
 
 .jp-paths {
   display: grid;
