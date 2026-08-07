@@ -6,10 +6,9 @@ import '../../styles/global.css';
 interface Props {
   title: string;
   description?: string;
-  isHome?: boolean;
 }
 
-const { title, description = 'Product leader. Engineer at heart. Enthusiastic DJ for the afterparty.', isHome = false } = Astro.props;
+const { title, description = 'Product leader. Engineer at heart. Enthusiastic DJ for the afterparty.' } = Astro.props;
 const siteTitle = 'Jonathan Peterson';
 const fullTitle = title === siteTitle ? title : `${title} · ${siteTitle}`;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site ?? 'https://jonathan-peterson.com');
@@ -47,7 +46,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site ?? 'https://jonathan
   </head>
   <body class="min-h-screen dark:bg-neutral-900 dark:text-neutral-100">
     <div class="mx-auto max-w-3xl px-4">
-      <Header isHome={isHome} />
+      <Header />
       <main>
         <slot />
       </main>

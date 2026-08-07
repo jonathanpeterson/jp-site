@@ -1,9 +1,4 @@
 ---
-interface Props {
-  isHome?: boolean;
-}
-const { isHome = false } = Astro.props;
-
 const navLinks = [
   { name: 'About', href: '/about/' },
   { name: 'Writing', href: '/writing/' },
@@ -127,9 +122,6 @@ const navLinks = [
     </div>
   </nav>
 
-  {isHome && (
-    <p class="jp-hero-tagline">Product leader. Frustrated artist. Engineer at heart. Enthusiastic DJ for the afterparty.</p>
-  )}
 </header>
 
 <style>
