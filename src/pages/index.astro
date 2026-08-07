@@ -8,7 +8,10 @@ const recentPosts = await getRecentPosts(5);
 
 <BaseLayout title="Jonathan Peterson" isHome={true}>
   <div class="jp-home-banner">
-    <img src="/images/made_in_atl.jpg" alt="Made in Atlanta" />
+    <picture>
+      <source media="(max-width: 639px)" srcset="/images/made_in_atl_mob.jpg" />
+      <img src="/images/made_in_atl.jpg" alt="Made in Atlanta" />
+    </picture>
   </div>
 
   <div class="jp-hero">
