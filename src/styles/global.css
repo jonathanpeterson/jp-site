@@ -75,17 +75,27 @@
 }
 
 .jp-hero-title {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 700;
   margin: 0 0 0.25rem;
-  line-height: 1.2;
+  line-height: 1.5;
+  color: rgb(64 64 64);
+}
+
+.dark .jp-hero-title {
+  color: rgb(163 163 163);
 }
 
 .jp-hero-sub {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 400;
-  color: var(--secondary);
+  color: rgb(64 64 64);
   margin: 0 0 1rem;
+  line-height: 1.5;
+}
+
+.dark .jp-hero-sub {
+  color: rgb(163 163 163);
 }
 
 .jp-hero-tagline {
