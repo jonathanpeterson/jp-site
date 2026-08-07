@@ -42,11 +42,25 @@ const navLinks = [
           </li>
         ))}
 
-        <!-- Contact Me dropdown (mobile only) -->
-        <li class="relative sm:hidden">
-          <details id="contact-details">
-            <summary class="text-sm font-semibold text-orange-400 hover:text-orange-500 dark:text-orange-300 dark:hover:text-orange-200 cursor-pointer list-none select-none">
-              Contact
+        <!-- Dark mode toggle -->
+        <li class="flex justify-end">
+          <button
+            id="theme-toggle"
+            type="button"
+            aria-label="Toggle dark mode"
+            class="text-sm font-semibold text-neutral-700 dark:text-neutral-300 hover:text-neutral-900 dark:hover:text-neutral-100 cursor-pointer px-1"
+          >
+            <span class="dark:hidden">☾</span>
+            <span class="hidden dark:inline">☀</span>
+          </button>
+        </li>
+      </ul>
+
+      <!-- Contact Me dropdown (mobile only) -->
+      <div class="relative sm:hidden">
+        <details id="contact-details">
+            <summary class="text-sm font-semibold text-neutral-700 dark:text-neutral-300 hover:text-orange-400 dark:hover:text-orange-300 cursor-pointer list-none select-none">
+              Contact Me
             </summary>
             <div class="absolute right-0 top-6 z-20 bg-white dark:bg-neutral-800 border border-neutral-200 dark:border-neutral-700 rounded-lg shadow-lg p-3 min-w-max">
               <div class="flex flex-col gap-3 text-xs text-neutral-500 dark:text-neutral-400 font-normal">
@@ -79,21 +93,7 @@ const navLinks = [
               </div>
             </div>
           </details>
-        </li>
-
-        <!-- Dark mode toggle -->
-        <li class="flex justify-end">
-          <button
-            id="theme-toggle"
-            type="button"
-            aria-label="Toggle dark mode"
-            class="text-sm font-semibold text-neutral-700 dark:text-neutral-300 hover:text-neutral-900 dark:hover:text-neutral-100 cursor-pointer px-1"
-          >
-            <span class="dark:hidden">☾</span>
-            <span class="hidden dark:inline">☀</span>
-          </button>
-        </li>
-      </ul>
+        </div>
 
       <!-- Contact bar (desktop only) -->
       <div class="hidden sm:flex items-center gap-4 text-xs text-neutral-500 dark:text-neutral-400 font-normal">
